@@ -286,6 +286,8 @@ footer li a:hover {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 4fr));
   grid-gap: 20px;
   grid-row-gap: 32px;
+  justify-items: center;
+  align-items: center;
 }
 
 .card1 {
@@ -312,7 +314,8 @@ footer li a:hover {
   text-decoration: none;
   color: #fff;
   background-color: #bc2b30;
-  padding: 5px 10px;
+  padding: 7px 10px;
+  text-align: center;
   display: inline-block;
   transition: all 0.2s ease-in-out;
 }
